@@ -225,6 +225,9 @@
   <data name="cleanUpDuplicateZipmodsToolStripMenuItem.Text" xml:space="preserve">
     <value>清理重複的zipmods</value>
   </data>
+<data name="fixZipmodsPreviewToolStripMenuItem.Text" xml:space="preserve">
+    <value>修復 zipmods 預覽圖</value>
+  </data>
   <data name="openModpackToolToolStripMenuItem.Text" xml:space="preserve">
     <value>打開Modpack工具</value>
   </data>

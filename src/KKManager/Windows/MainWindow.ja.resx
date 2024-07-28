@@ -207,6 +207,9 @@
   <data name="cleanUpDuplicateZipmodsToolStripMenuItem.Text" xml:space="preserve">
     <value>重複zipmodをクリーンアップ</value>
   </data>
+<data name="fixZipmodsPreviewStripMenuItem.Text" xml:space="preserve">
+    <value>zipmods プレビュー画像を修正する</value>
+  </data>
   <data name="openModpackToolToolStripMenuItem.Text" xml:space="preserve">
     <value>ModpackToolを開く</value>
   </data>

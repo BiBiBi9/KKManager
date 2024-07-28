@@ -350,6 +350,15 @@ Generally safe but might cause issues in rare cases, especially with newer games
   <data name="cleanUpDuplicateZipmodsToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>Attempt to automatically clean up zipmods with the same GUIDs so that only the latest versions are left.</value>
   </data>
+	<data name="fixZipmodsPreviewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+		<value>231, 22</value>
+	</data>
+	<data name="fixZipmodsPreviewToolStripMenuItem.Text" xml:space="preserve">
+    <value>Fix zipmods preview</value>
+  </data>
+<data name="fixZipmodsPreviewToolStripMenuItem.ToolTipText" xml:space="preserve">
+    <value>Based on the .unity3d file, fix the zipmod without a preview image.</value>
+  </data>
   <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
     <value>228, 6</value>
   </data>
@@ -2425,6 +2434,12 @@ If this fails for whatever reason (e.g. recycle bin is full or disabled) the fil
     <value>cleanUpDuplicateZipmodsToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;cleanUpDuplicateZipmodsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+<data name="&gt;&gt;fixZipmodsPreviewToolStripMenuItem.Name" xml:space="preserve">
+    <value>fixZipmodsPreviewToolStripMenuItem</value>
+  </data>
+<data name="&gt;&gt;fixZipmodsPreviewToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">

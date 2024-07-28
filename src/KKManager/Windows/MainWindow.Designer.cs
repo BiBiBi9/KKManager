@@ -69,6 +69,7 @@ namespace KKManager.Windows
             this.fixFileAndFolderPermissionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.compressGameFilesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cleanUpDuplicateZipmodsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fixZipmodsPreviewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.developersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openModpackToolToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -327,6 +328,7 @@ namespace KKManager.Windows
             this.fixFileAndFolderPermissionsToolStripMenuItem,
             this.compressGameFilesToolStripMenuItem,
             this.cleanUpDuplicateZipmodsToolStripMenuItem,
+            this.fixZipmodsPreviewToolStripMenuItem,
             this.toolStripSeparator3,
             this.developersToolStripMenuItem});
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
@@ -349,6 +351,12 @@ namespace KKManager.Windows
             this.cleanUpDuplicateZipmodsToolStripMenuItem.Name = "cleanUpDuplicateZipmodsToolStripMenuItem";
             resources.ApplyResources(this.cleanUpDuplicateZipmodsToolStripMenuItem, "cleanUpDuplicateZipmodsToolStripMenuItem");
             this.cleanUpDuplicateZipmodsToolStripMenuItem.Click += new System.EventHandler(this.cleanUpDuplicateZipmodsToolStripMenuItem_Click);
+            // 
+            // fixZipmodsPreviewToolStripMenuItem
+            // 
+            this.fixZipmodsPreviewToolStripMenuItem.Name = "fixZipmodsPreviewToolStripMenuItem";
+            resources.ApplyResources(this.fixZipmodsPreviewToolStripMenuItem, "fixZipmodsPreviewToolStripMenuItem");
+            this.fixZipmodsPreviewToolStripMenuItem.Click += new System.EventHandler(this.fixZipmodsPreviewToolStripMenuItem_Click);
             // 
             // toolStripSeparator3
             // 
@@ -554,6 +562,7 @@ namespace KKManager.Windows
         private ToolStripMenuItem websiteToolStripMenuItem;
         private ToolStripMenuItem cleanUpDuplicateAndInvalidZipmodsToolStripMenuItem;
         private ToolStripMenuItem cleanUpDuplicateZipmodsToolStripMenuItem;
+        private ToolStripMenuItem fixZipmodsPreviewToolStripMenuItem;
         private ToolStripMenuItem openModpackToolToolStripMenuItem;
         private ToolStripMenuItem lookForModUpdatesToolStripMenuItem;
         private ToolStripSeparator toolStripSeparator6;

@@ -791,6 +791,11 @@ namespace KKManager.Windows
             ZipmodTools.RemoveDuplicateZipmodsInDir(InstallDirectoryHelper.ModsPath, false);
         }
 
+        private void fixZipmodsPreviewToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           //////////////////////////////////////////////////////////
+        }
+
         private void cleanUpDuplicateAndInvalidZipmodsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             using (var d = new CommonOpenFileDialog("Remove duplicate and broken zipmods")
