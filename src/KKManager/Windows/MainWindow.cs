@@ -793,7 +793,8 @@ namespace KKManager.Windows
 
         private void fixZipmodsPreviewToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           //////////////////////////////////////////////////////////
+            using (var dialog = new FixZipModsPreviewDialog())
+                dialog.ShowDialog(this);
         }
 
         private void cleanUpDuplicateAndInvalidZipmodsToolStripMenuItem_Click(object sender, EventArgs e)
