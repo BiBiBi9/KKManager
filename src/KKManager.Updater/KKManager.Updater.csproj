@@ -152,6 +152,9 @@
     <Reference Include="SharpCompress, Version=0.37.2.0, Culture=neutral, PublicKeyToken=afb0a02973931d96, processorArchitecture=MSIL">
       <HintPath>..\packages\SharpCompress.0.37.2\lib\net462\SharpCompress.dll</HintPath>
     </Reference>
+    <Reference Include="SixLabors.ImageSharp, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d998eea7b14cab13, processorArchitecture=MSIL">
+      <HintPath>..\packages\SixLabors.ImageSharp.2.1.9\lib\net472\SixLabors.ImageSharp.dll</HintPath>
+    </Reference>
     <Reference Include="StandardSocketsHttpHandler, Version=2.2.0.8, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\StandardSocketsHttpHandler.2.2.0.8\lib\netstandard2.0\StandardSocketsHttpHandler.dll</HintPath>
     </Reference>
@@ -212,6 +215,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\ModItem.cs" />
     <Compile Include="Downloader\DownloadSourceCrashedException.cs" />
     <Compile Include="Downloader\UpdateDownloadItem.cs" />
     <Compile Include="Downloader\UpdateDownloadStatus.cs" />
@@ -382,6 +386,14 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AssetStudioUtility\AssetStudioUtility.csproj">
+      <Project>{a1f3ff70-c71c-4ff8-b8cc-359a26548e39}</Project>
+      <Name>AssetStudioUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AssetStudio\AssetStudio.csproj">
+      <Project>{054b9a26-3423-47f3-a7df-b64b844c3e6e}</Project>
+      <Name>AssetStudio</Name>
+    </ProjectReference>
     <ProjectReference Include="..\KKManager.Core\KKManager.Core.csproj">
       <Project>{09fc4ef5-9694-4961-a136-dcfd8b5f1368}</Project>
       <Name>KKManager.Core</Name>
