@@ -2,6 +2,23 @@
 using System.Collections.Generic;
 using System.IO;
 
+public enum ModItemResult
+{
+    ThumbTexValue_NotFound,
+    UnityTexture_NotFound,
+    MainAB_NotFound,
+    UnityFileLoad_Failed,
+    Texture2Image_Failed,
+    SaveImage_Failed,
+    MoveImage_Failed,
+    CSVUpdate_Failed,
+    ExtracImage_Success,
+    ExtracImage_Finish,
+    MoveImage_Finish,
+    KeepImage_Finish,
+    UnKnown_Error
+}
+
 public class ModItem
 {
     public string ParentPath { get; private set; }
